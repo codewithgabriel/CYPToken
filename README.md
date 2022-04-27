@@ -13,6 +13,8 @@ Getting Started
 4. generate your wallet private key, I recommend metamusk
 5. edit hardhat.config.js in the project dir
 6. set networks 
+
+
 ```shell
 networks : { 
 mumbai : { 
@@ -20,7 +22,7 @@ mumbai : {
 		account: your_wallet_account_private_key
 	}
 }
-
+```
 
 
 ```shell
@@ -37,5 +39,6 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+```
 
 # CYPToken

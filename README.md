@@ -27,8 +27,8 @@ mumbai : {
 
 ```shell
 npm install # To install dependencies
-npx hardhat # To compile the solidity code
-npx hardhat # To run the test.js script under the test folder
+npx hardhat compile # To compile the solidity code
+npx hardhat test # To run the test.js script under the test folder
 
 Usefull commands to try
 

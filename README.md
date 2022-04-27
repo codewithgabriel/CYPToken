@@ -5,6 +5,24 @@ CYPToken is a ER20 (demo) token it is build with hardhat framework, you can use 
 
 Try running some of the following tasks:
 
+Getting Started
+
+1. First create account on alchemy
+2. create new app on alchemy (choose mumbai polygon test net)
+3. copy the https end point url
+4. generate your wallet private key, I recommend metamusk
+5. edit hardhat.config.js in the project dir
+6. set networks 
+```shell
+networks : { 
+mumbai : { 
+		url: your_alchemy_endpoint_url ,
+		account: your_wallet_account_private_key
+	}
+}
+
+
+
 ```shell
 npm install # To install dependencies
 npx hardhat # To compile the solidity code

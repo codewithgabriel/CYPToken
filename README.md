@@ -1,4 +1,4 @@
-# Basic Sample Hardhat Project
+# ERC20 sample project
 
 CYPToken is a ER20 (demo) token it is build with hardhat framework, you can use this as a start up for your ERC20 token project
 
